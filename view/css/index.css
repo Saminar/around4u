@@ -1,0 +1,32 @@
+#container {
+	background-image: url(../img/weibo.around4u.png);
+	position: relative;
+	height: 768px;
+	width: 1024px;
+	clip: rect(0px,auto,0px,auto);
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#login {
+	float: left;
+	height: 48px;
+	width: 239px;
+	margin-top: 551px;
+	margin-left: 730px;
+}
+.aubtn{
+	display:inline-block;
+	width:278px;
+	height:48px;
+	background:url(../img/weibo.text.gif) 0 0;
+	-moz-transition: .20s ease-in-out;
+	-o-transition: .20s ease-in-out;
+	-webkit-transition: .20s ease-in-out;
+}
+.aubtn:hover{
+	
+	background-position:0 -48px;
+
+}
